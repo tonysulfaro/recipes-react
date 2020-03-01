@@ -6,11 +6,16 @@ function RecipeCard ({recipe}) {
 
     return (
         <a href={recipe.url} target="__blank" rel="noopener">
-            <div className="recipe-card">
+            <div class="card">
+            <div class="card-gradient">
+              <div class="card-content">
                 <h2>{recipe.label}</h2>
                 <p>Source: {recipe.source}</p>
-                <p><img src={recipe.image} alt="recipe"/></p>
+                <p>Total Time: {recipe.totalTime}</p>
+              </div>
             </div>
+            <img src={recipe.image} alt="recipe" />
+          </div>
         </a>
     )
 }
