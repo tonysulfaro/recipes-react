@@ -14,9 +14,7 @@ function App() {
       <div className="bg"></div>
         <h1>Recipe Finder</h1>
         <Search setResults={setResults}></Search>
-        <div className="search">
-          <Results recipes={results}></Results>
-        </div>
+        <Results recipes={results}></Results>
     </main>
   )
 }
