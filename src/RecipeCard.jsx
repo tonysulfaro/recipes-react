@@ -9,7 +9,7 @@ function RecipeCard ({recipe}) {
             <div className="recipe-card">
                 <h2>{recipe.label}</h2>
                 <p>Source: {recipe.source}</p>
-                <p><img src={recipe.image} alt="recipe image"/></p>
+                <p><img src={recipe.image} alt="recipe"/></p>
             </div>
         </a>
     )
