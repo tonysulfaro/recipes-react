@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
-import './Search'
-import './SearchResults'
 import Search from './Search'
-import Results from './SearchResults'
+import SearchResults from './SearchResults'
 
 function App() {
 
@@ -14,7 +12,7 @@ function App() {
       <div className="bg"></div>
         <h1>Recipe Finder</h1>
         <Search setResults={setResults}></Search>
-        <Results recipes={results}></Results>
+        <SearchResults recipes={results}></SearchResults>
     </main>
   )
 }

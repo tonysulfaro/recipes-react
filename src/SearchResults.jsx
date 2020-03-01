@@ -1,7 +1,7 @@
 import React from 'react'
 import RecipeCard from './RecipeCard'
 
-function Results ({recipes}){
+function SearchResults ({recipes}){
     console.log(recipes)
 
     return (
@@ -19,4 +19,4 @@ function Results ({recipes}){
     )
 }
 
-export default Results
+export default SearchResults
