@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+body, html, #root {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg {
+  height: 50%;
+  background-image: url('cooking.jpg');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  padding: 4em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.recipe-card-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recipe-card {
+  width: 500px;
+  border-radius: 5px;
+  border:1px solid black;
+  margin: 1em;
+  padding: 1em;
 }
