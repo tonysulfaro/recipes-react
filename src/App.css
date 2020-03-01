@@ -9,6 +9,10 @@ body, html, #root {
   background-image: url('cooking.jpg');
 }
 
+main {
+  padding: 1em;
+}
+
 .container {
   padding: 4em;
 }
